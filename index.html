@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Formulari de contacte</h2>
+
+  <form action="/enviar_formulario" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensajes">Mensajes:</label><br>
+    <textarea id="mensajes" name="mensajes" rows="4" cols="50" required></textarea><br><br>
+
+    <label for="Edat (16-64)">Edat (16-64):</label>
+    <input type="Edat (16-64)" id="Edat (16-64)" name="Edat (16-64)" required><br><br>
+      <select>
+     <option value="ceps">1</option>
+     <option value="rossinyols">2</option>
+     <option value="trompetes">3</option>
+     <option value="camagrocs">4</option>
+     <option value="llanegues">5</option>
+     <option value="llanegues">6</option>
+    </select>
+
+    <label for="cantidas de consola">Cantidas de consola</label><br>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Xbox</label><br>
+    <img src="https://m.media-amazon.com/images/I/61nq7mC0tHL._AC_SX522_.jpg">
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">Playstation</label><br>
+    <img src="https://www.gangaelectronica.es/173252-medium_default/consola-sony-ps5-playstation-5-edicion-4k-uhd-blu-ray.jpg">
+
+    <input type="submit" value="Comprar">
+
+
+
+
+  </form>
+</body>
+</html>
